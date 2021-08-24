@@ -1,5 +1,7 @@
 # Snowflake Undefined Host
 
+For https://github.com/snowflakedb/snowflake-connector-nodejs/issues/193
+
 ```bash
 npm i && npm test
 ```
