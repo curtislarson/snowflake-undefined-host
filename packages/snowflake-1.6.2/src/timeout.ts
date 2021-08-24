@@ -1,11 +1,14 @@
 import s from "snowflake-sdk";
+s.configure({
+  logLevel: "TRACE",
+});
 
 type Opts = s.ConnectionOptions & {
   accessUrl: string;
 };
 
 const OPTS: Opts = {
-  accessUrl: "https://quack.snowflakecomputing.com",
+  accessUrl: "https://quack1.6.2.snowflakecomputing.com",
   username: "Quack",
   password: "Quack",
   database: "StaleBread",
