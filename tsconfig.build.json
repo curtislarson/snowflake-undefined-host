@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig",
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "packages/snowflake-1.6.1" },
+    { "path": "packages/snowflake-1.6.2" }
+  ]
+}

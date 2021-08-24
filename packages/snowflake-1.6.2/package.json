@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@quackware/snowflake-1.6.2",
+  "author": "QuackWare",
+  "devDependencies": {
+    "@types/snowflake-sdk": "1.6.0"
+  },
+  "dependencies": {
+    "snowflake-sdk": "1.6.2"
+  }
+}
